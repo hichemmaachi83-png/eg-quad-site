@@ -168,7 +168,7 @@ export default function SuivezNousPage() {
               <Card className="border-0 overflow-hidden shadow-lg md:col-span-2 lg:col-span-1">
                 <div className="relative aspect-[4/3]">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image1%20%288%29-Fu5530LOE8HTovial7kjh8zSFp0Un9.jpeg"
+                    src="/images/quad1.jpg"
                     alt="Quad CFMOTO bleu"
                     fill
                     className="object-cover transition-transform duration-500 hover:scale-105"

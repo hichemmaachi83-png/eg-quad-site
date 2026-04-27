@@ -55,7 +55,7 @@ export default function QuiSommesNousPage() {
               </div>
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image1%20%288%29-Fu5530LOE8HTovial7kjh8zSFp0Un9.jpeg"
+                  src="/images/quad2.jpg"
                   alt="Quad CFMOTO"
                   fill
                   className="object-cover"

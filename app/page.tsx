@@ -93,7 +93,7 @@ export default function HomePage() {
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl md:col-span-2 lg:col-span-1">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image1%20%288%29-Fu5530LOE8HTovial7kjh8zSFp0Un9.jpeg"
+                src="/images/quad1.jpg"
                 alt="Quad bleu CFMOTO"
                 fill
                 className="object-cover transition-transform duration-500 hover:scale-105"

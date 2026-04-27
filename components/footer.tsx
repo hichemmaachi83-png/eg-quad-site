@@ -10,17 +10,17 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Logo et description */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/images/logo-eg-quad.jpg"
-                alt="EG Quad Location"
-                width={60}
-                height={60}
-                className="rounded-full"
-              />
-              <span className="text-2xl font-bold">
-                EG <span className="text-accent">QUAD</span>
-              </span>
+            <div className="flex items-center">
+              <Link href="/">
+                <Image
+                  src="/images/logo.png"
+                  alt="EG Quad Location"
+                  width={140}
+                  height={100}
+                  className="object-contain" // Retrait du rounded-full pour éviter de couper le logo
+                />
+              </Link>
+              {/* Le texte "EG QUAD" a été supprimé ici */}
             </div>
             <p className="text-sm text-primary-foreground/70">
               Location de quads pour des expériences outdoor mêlant aventure, nature et adrénaline.
