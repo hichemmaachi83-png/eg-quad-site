@@ -3,12 +3,14 @@ import { Montserrat, Open_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
+// Police titres
 const montserrat = Montserrat({ 
   subsets: ["latin"],
   variable: '--font-montserrat',
   display: 'swap'
 });
 
+// Police texte
 const openSans = Open_Sans({ 
   subsets: ["latin"],
   variable: '--font-open-sans',
@@ -19,32 +21,16 @@ export const metadata: Metadata = {
   title: 'EG Quad Location | Location de Quads - La Valette-du-Var',
   description: 'Location de quads pour des expériences outdoor mêlant aventure, nature et adrénaline. Explorez des paysages exceptionnels en toute liberté.',
   keywords: 'quad, location quad, aventure, outdoor, La Valette-du-Var, Var, PACA',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="fr">
+    <html lang="fr" className="scroll-smooth">
       <body className={`${montserrat.variable} ${openSans.variable} font-sans antialiased`}>
         {children}
         <Analytics />
