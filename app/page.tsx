@@ -197,8 +197,8 @@ export default function HomePage() {
 
             <Card className="border-0 bg-card shadow-sm">
               <CardContent className="p-6 text-center">
-                <h4 className="text-xl font-semibold text-card-foreground">Pack 12h</h4>
-                <p className="mt-2 text-muted-foreground">Journée longue aventure</p>
+                <h4 className="text-xl font-semibold text-card-foreground">Journée entière</h4>
+                <p className="mt-2 text-muted-foreground">8h - 17h</p>
                 <p className="mt-4 text-2xl font-bold text-accent">180 €</p>
               </CardContent>
             </Card>

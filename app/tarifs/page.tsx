@@ -224,8 +224,8 @@ export default function TarifsPage() {
               />
 
               <CompactOfferCard
-                title="Pack 12h"
-                subtitle="Journée longue aventure"
+                title="Journée entière"
+                subtitle="8h - 17h"
                 price="180 €"
               />
 

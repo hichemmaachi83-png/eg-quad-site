@@ -61,8 +61,8 @@ const offers = [
   },
   {
     id: "12h",
-    label: "Pack 12h",
-    subtitle: "Journée longue aventure",
+    label: "Journée entière",
+    subtitle: "8h - 17h",
     price1: "180 €",
     price2: "180 €",
     category: "classic",
